@@ -1,0 +1,49 @@
+@import "normalize.less";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@colorFondo:#ffffff;
+@colorHead:#249444;
+@resLargeDesktop : 862px;
+body{
+  background-color: @colorFondo;
+  font-family: 'Open Sans', sans-serif;
+}
+header{
+  background-color: @colorHead;
+  height: 88.11px;
+}
+figure{
+  margin: 0;
+}
+footer{
+  background-color: @colorHead;
+  height: 88.11px;
+}
+.content{
+  max-width: @resLargeDesktop;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 622px;
+  padding: 20px;
+}
+.fondoHome{
+  background: no-repeat url("../images/fondoHome.png");
+  position: relative;
+}
+.login{
+  position: absolute;
+  top:335px;
+  left: 350px;
+  width: 293px;
+  height: 195px;
+  text-align: center;
+  input{
+    display: block;
+    margin: 20px;
+  }
+}
+.botonSubmit{
+  background-color: #e0a547;
+  border: none;
+  color: #FFFFFF;
+  padding: 10px 14px;
+}
