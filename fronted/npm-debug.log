@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-less@0.7.3',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json Less_and_sass@0.0.0 No repository field.
+6 warn package.json Less_and_sass@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt-contrib-less@0.7.3', null ]
+9 verbose cache add name=undefined spec="grunt-contrib-less@0.7.3" args=["grunt-contrib-less@0.7.3",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt-contrib-less@0.7.3',
+10 verbose parsed url   path: 'grunt-contrib-less@0.7.3',
+10 verbose parsed url   href: 'grunt-contrib-less@0.7.3' }
+11 verbose cache add name="grunt-contrib-less" spec="0.7.3" args=["grunt-contrib-less","0.7.3"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '0.7.3',
+12 verbose parsed url   path: '0.7.3',
+12 verbose parsed url   href: '0.7.3' }
+13 verbose addNamed [ 'grunt-contrib-less', '0.7.3' ]
+14 verbose addNamed [ '0.7.3', '0.7.3' ]
+15 silly lockFile d19c1047-grunt-contrib-less-0-7-3 grunt-contrib-less@0.7.3
+16 verbose lock grunt-contrib-less@0.7.3 C:\Users\usuario\AppData\Roaming\npm-cache\d19c1047-grunt-contrib-less-0-7-3.lock
+17 verbose request where is /grunt-contrib-less
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 3483db99ff132b1d
+20 verbose url raw /grunt-contrib-less
+21 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-less' ]
+22 verbose url resolved https://registry.npmjs.org/grunt-contrib-less
+23 verbose request where is https://registry.npmjs.org/grunt-contrib-less
+24 info trying registry request attempt 1 at 15:19:16
+25 http GET https://registry.npmjs.org/grunt-contrib-less
+26 http 200 https://registry.npmjs.org/grunt-contrib-less
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Fri, 31 Oct 2014 20:19:16 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"D06K78JZQQKSM9DWOUNJQL9O4"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '62483',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-iad2124-IAD',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1414786756.892766,VS0,VE17',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile d19c1047-grunt-contrib-less-0-7-3 grunt-contrib-less@0.7.3
+29 silly lockFile d19c1047-grunt-contrib-less-0-7-3 grunt-contrib-less@0.7.3
+30 error Error: version not found: grunt-contrib-less@0.7.3
+30 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:125:12
+30 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:167:7)
+30 error     at Object.oncomplete (fs.js:107:15)
+31 error If you need help, you may report this *entire* log,
+31 error including the npm and node versions, at:
+31 error     <http://github.com/npm/npm/issues>
+32 error System Windows_NT 6.2.9200
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-contrib-less@0.7.3" "--save-dev"
+34 error cwd D:\rootweb\practicas-less-sass\practica1
+35 error node -v v0.10.32
+36 error npm -v 1.4.28
+37 verbose exit [ 1, true ]
