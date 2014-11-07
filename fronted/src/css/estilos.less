@@ -6,6 +6,7 @@
 body{
   background-color: @colorFondo;
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 header{
   background-color: @colorHead;
@@ -18,12 +19,16 @@ footer{
   background-color: @colorHead;
   height: 88.11px;
 }
-.content{
+.contentlogin{
   max-width: @resLargeDesktop;
   margin: 0 auto;
   overflow: hidden;
   height: 622px;
   padding: 20px;
+  position: relative;
+  img{
+    max-width: 100%;
+  }
 }
 .fondoHome{
   background: no-repeat url("../images/fondoHome.png");
@@ -31,19 +36,66 @@ footer{
 }
 .login{
   position: absolute;
-  top:335px;
-  left: 350px;
-  width: 293px;
+  top:370px;
+  left: 385px;
   height: 195px;
-  text-align: center;
-  input{
-    display: block;
-    margin: 20px;
+  margin: o auto;
+  form{
+    input{
+      display: block;
+      margin: 20px;
+    }
+    .botonSubmit{
+      background-color: #e0a547;
+      border: none;
+      color: #FFFFFF;
+      padding: 10px 14px;
+      text-align: center;
+      font-size: 1em;
+      margin: 0 auto;
+    }
   }
 }
-.botonSubmit{
-  background-color: #e0a547;
-  border: none;
-  color: #FFFFFF;
-  padding: 10px 14px;
+
+@media screen and (max-width: 1024px){
+  .contentlogin{
+    max-width: 600px;
+    img{
+      max-width: 100%;
+    }
+  }
+  .login{
+    top:275px;
+    left: 282px;
+    form {
+      input {
+        max-width: 190px;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .contentlogin{
+    max-width: 400px;
+    img{
+      max-width: 100%;
+    }
+  }
+  .login{
+    top:205px;
+    left: 209px;
+    form {
+      input {
+        max-width: 150px;
+        margin: 8px;
+        font-size: 0.7em;
+      }
+      .botonSubmit{
+        font-size: 0.6em;
+        padding: 5px 7px;
+      }
+    }
+  }
 }
